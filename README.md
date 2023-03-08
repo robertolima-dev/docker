@@ -18,9 +18,9 @@ O comando docker run é usado para executar um container Docker. Ele aceita vár
 
 Exemplo de docker run para node:
 
-´´´
+```
 $ docker run -it --name my-node-app -p 3000:3000 -v ./:/app/src node:16 npm start
-´´´ 
+```
 
 ## docker-compose.yml
 
